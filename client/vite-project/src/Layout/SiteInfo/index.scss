@@ -1,0 +1,74 @@
+#siteInfo {
+  margin-top: 60px;
+  .container {
+    max-width: 1700px;
+    margin: 0 auto;
+    .cards {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      .shippingCard {
+        padding: 15px;
+        margin: 10px 0;
+        text-align: center;
+        border: 1px solid #ccc;
+        width: 520px;
+        .cardIcon {
+          margin-bottom: 10px;
+          img {
+            height: 46px;
+            width: auto;
+            margin: 0 auto;
+          }
+        }
+        .mainTxt {
+          text-transform: uppercase;
+          margin-bottom: 10px;
+          letter-spacing: 4px;
+        }
+      }
+      .returnCard {
+        padding: 15px;
+        margin: 10px 0;
+        text-align: center;
+        border: 1px solid #ccc;
+        width: 520px;
+
+        .cardIcon {
+          margin-bottom: 10px;
+          img {
+            height: 46px;
+            width: auto;
+            margin: 0 auto;
+          }
+        }
+        .mainTxt {
+          text-transform: uppercase;
+          margin-bottom: 10px;
+          letter-spacing: 4px;
+        }
+      }
+      .supportCard {
+        padding: 15px;
+        margin: 10px 0;
+        text-align: center;
+        border: 1px solid #ccc;
+        width: 520px;
+        .cardIcon {
+          margin-bottom: 10px;
+          img {
+            height: 46px;
+            width: auto;
+            margin: 0 auto;
+          }
+        }
+        .mainTxt {
+          text-transform: uppercase;
+          margin-bottom: 10px;
+          letter-spacing: 4px;
+        }
+      }
+    }
+  }
+}

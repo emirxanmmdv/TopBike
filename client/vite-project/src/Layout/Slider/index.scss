@@ -1,0 +1,85 @@
+.slider {
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .firstImg {
+      position: relative;
+      .contentBox {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 13%;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        align-items: first baseline;
+        .bigTxt {
+          color: white;
+          font-size: 80px;
+          margin-bottom: 30px;
+        }
+        .smallTxt {
+          color: white;
+          margin-bottom: 40px;
+        }
+        .shopNowBtn {
+          background: none;
+          border: 1px solid white;
+          outline: none;
+          color: white;
+          font-size: 20px;
+          text-transform: uppercase;
+          padding: 10px 25px;
+          letter-spacing: 2px;
+          font-weight: 500;
+        }
+      }
+    }
+    .secondImg {
+      position: relative;
+      .contentBox {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 13%;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        align-items: first baseline;
+        .bigTxt {
+          color: white;
+          font-size: 80px;
+          margin-bottom: 30px;
+        }
+        .smallTxt {
+          color: white;
+          margin-bottom: 40px;
+        }
+        .buyNowBtn {
+          background: none;
+          border: 1px solid white;
+          outline: none;
+          color: white;
+          font-size: 20px;
+          text-transform: uppercase;
+          padding: 10px 25px;
+          letter-spacing: 2px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

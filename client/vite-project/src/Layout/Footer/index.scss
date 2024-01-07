@@ -1,0 +1,132 @@
+#footerSection {
+  margin-top: 30px;
+  .topFooter {
+    padding: 50px 0 40px;
+    background-color: #f4f4f4;
+    .container {
+      margin: 0 auto;
+      max-width: 1700px;
+      .footerContents {
+        display: flex;
+        .logoSection {
+          width: 25%;
+          .siteLogo {
+            display: flex;
+            align-items: center;
+            img {
+              width: 180px;
+              height: 100%;
+            }
+          }
+          .slogan {
+            margin-top: 23px;
+            font-size: 17px;
+          }
+          .socialMedia {
+            margin-top: 30px;
+            font-size: 23px;
+            display: flex;
+            gap: 30px;
+          }
+        }
+        .shopSection {
+          width: 25%;
+          .shopTitle {
+            font-size: 27px;
+            margin-bottom: 50px;
+          }
+          .line {
+            position: absolute;
+            transform: translateY(-50px);
+          }
+          .shopLinks {
+            ul {
+              font-size: 17px;
+              li {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                a {
+                  color: black;
+                }
+              }
+            }
+          }
+        }
+        .aboutUsSection {
+          width: 25%;
+          .aboutUsTitle {
+            font-size: 27px;
+            margin-bottom: 50px;
+          }
+          .line {
+            position: absolute;
+            transform: translateY(-50px);
+          }
+          .aboutUsLinks {
+            ul {
+              font-size: 17px;
+              li {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                a {
+                  color: black;
+                }
+              }
+            }
+          }
+        }
+        .informationSection {
+          width: 25%;
+          .informationTitle {
+            font-size: 27px;
+            margin-bottom: 50px;
+          }
+          .line {
+            position: absolute;
+            transform: translateY(-50px);
+          }
+          .informationLinks {
+            ul {
+              font-size: 17px;
+              li {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                a {
+                  color: black;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .bottomFooter {
+    padding: 26px 0;
+    background-color: white;
+    .container {
+      margin: 0 auto;
+      max-width: 1700px;
+      .bottomContents {
+        display: flex;
+        justify-content: space-between;
+        .textContent {
+          p {
+            a {
+              color: black;
+            }
+            .engo {
+              color: gray;
+            }
+          }
+        }
+        .digitalCards{
+
+        }
+      }
+    }
+  }
+}

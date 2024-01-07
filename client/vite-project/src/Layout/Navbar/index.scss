@@ -1,0 +1,46 @@
+#navbarSection {
+    font-family: "Poppins", sans-serif;
+    padding: 25px 0;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    .container {
+      max-width: 1700px;
+      margin: 0 auto;
+      .navbarContents {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .siteLogo {
+          height: 100%;
+          width: 120px;
+        }
+        .subBars {
+          ul {
+            display: flex;
+            gap: 50px;
+            font-size: 20px;
+            li {
+              a {
+                color: white;
+              }
+            }
+          }
+        }
+        .navIcons {
+          ul {
+            display: flex;
+            gap: 7px;
+            li {
+              display: flex;
+              svg {
+                fill: white;
+                 font-size: 30px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
